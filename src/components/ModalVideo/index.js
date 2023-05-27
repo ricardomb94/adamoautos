@@ -4,17 +4,30 @@ import '../../../node_modules/react-modal-video/scss/modal-video.scss';
  
 class VideoModal extends React.Component {
  
-  constructor () {
-    super()
+  constructor() {
+    super();
     this.state = {
       isOpen: false
+    };
+    this.openModal = this.openModal.bind(this);
+    this.isMounted = false; // Track component's mounted state
+  }
+
+  componentDidMount() {
+    this.isMounted = true;
+  } 
+
+  componentWillUnmount() {
+    this.isMounted = false;
+  }
+  
+  openModal() {
+    if (this.isMounted) {
+      this.setState({ isOpen: true });
     }
-    this.openModal = this.openModal.bind(this)
   }
- 
-  openModal () {
-    this.setState({isOpen: true})
-  }
+
+
  
   render () {
     return (
