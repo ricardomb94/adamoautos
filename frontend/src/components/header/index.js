@@ -1,8 +1,8 @@
 import React from 'react'
 import Logo from '../../images/logo/logo-2.png'
 import {Link}  from 'react-router-dom'
-import MobileMenu from '../../components/MobileMenu'
-import HeaderTopbar from '../../components/HeaderTopbar'
+import MobileMenu from '../MobileMenu'
+import HeaderTopbar from '../HeaderTopbar'
 import './style.css'
 
 const Header = (props) => {
@@ -38,13 +38,13 @@ const Header = (props) => {
                                             </ul> */}
                                         </li>
                                         <li><Link onClick={ClickHandler} to="/about">Qui sommes-nous</Link></li>
-                                        <li><Link onClick={ClickHandler} to="/service">Nos services</Link>
+                                        <li><Link onClick={ClickHandler} to="/service">services</Link>
                                             <ul className="submenu">
                                                 <li><Link onClick={ClickHandler} to="/service">service</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/service-details">service details</Link></li>
                                             </ul>
                                         </li>
-                                        <li><Link onClick={ClickHandler} to="/project">Achats véhicules</Link>
+                                        <li><Link onClick={ClickHandler} to="/project">Achats</Link>
                                             <ul className="submenu">
                                                 <li><Link onClick={ClickHandler} to="/project">project</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/project-details">project details</Link></li>
@@ -52,9 +52,9 @@ const Header = (props) => {
                                         </li>
                                         <li><Link onClick={ClickHandler} to="/">Pages</Link>
                                             <ul className="submenu">
-                                                <li><Link onClick={ClickHandler} to="/pricing">pricing table</Link></li>
+                                                {/* <li><Link onClick={ClickHandler} to="/pricing">pricing table</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/team">Team</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/404">Error 404</Link></li>
+                                                <li><Link onClick={ClickHandler} to="/404">Error 404</Link></li> */}
                                                 <li><Link onClick={ClickHandler} to="/login">Login</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/signup">Register</Link></li>
                                             </ul>
