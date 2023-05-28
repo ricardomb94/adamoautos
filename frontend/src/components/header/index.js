@@ -59,15 +59,6 @@ const Header = (props) => {
                                                 <li><Link onClick={ClickHandler} to="/signup">Register</Link></li>
                                             </ul>
                                         </li>
-                                        {/* <li><Link onClick={ClickHandler} to="/">Blog</Link>
-                                            <ul className="submenu">
-                                                <li><Link onClick={ClickHandler} to="/blog">Blog Grid</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/blog-list">Blog with sidebar</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/blog-fullwidth">Blog full width</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/blog-single">Blog single sidebar</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/blog-single-fullwidth">Blog single fullwidth</Link></li>
-                                            </ul>
-                                        </li> */}
                                         <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
                                     </ul>
                                 </nav>
