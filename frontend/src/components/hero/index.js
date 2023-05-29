@@ -7,8 +7,8 @@ import HeroContactFrom from '../HeroContactFrom'
 import './style.css'
 
 import hero1 from '../../images/reparateur.jpg'
-import hero2 from '../../images/reparateur-2.jpg'
-import hero3 from '../../images/reparateur-3.jpg'
+import hero2 from '../../images/chauffeur.jpg'
+import hero3 from '../../images/chauffeur-2.jpg'
 import { Link } from "react-router-dom";
 
 
@@ -19,12 +19,12 @@ class Hero extends Component {
         var settings = {
             dots: true,
             arrows: true,
-            speed: 1200,
+            speed: 1500,
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 3500,
-            slide: true
+            fade: true
         };
 
         const ClickHandler = () =>{
@@ -40,10 +40,10 @@ class Hero extends Component {
                                 <div className="container header-p">
                                     <div className="row">
                                         <div className="col col-lg-6 hx-slide-caption">
-                                            <h2>Réparation</h2>
-                                            <p>Nous vous proposons un service de qualité.</p>
+                                            {/* <h2>Réparation</h2> */}
+                                            <h2>Nous vous proposons un service de qualité professionelle.</h2>
                                             <div className="btn-style">
-                                                <Link onClick={ClickHandler} to="/about">En savoir + sur nous</Link>
+                                                <Link onClick={ClickHandler} to="/about">En savoir + </Link>
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
@@ -58,10 +58,10 @@ class Hero extends Component {
                                 <div className="container header-p">
                                     <div className="row">
                                         <div className="col col-lg-6 hx-slide-caption">
-                                            <h2>Service.</h2>
-                                            <p>Votre véhicule est entre de bonnes mains.</p>
+                                            <h2>Votre satifaction est coeur de notre stratégie</h2>
+                                            {/* <p>Votre véhicule est entre de bonnes mains.</p> */}
                                             <div className="btn-style">
-                                                <Link onClick={ClickHandler} to="/about">En savoir + sur nous</Link>
+                                                <Link onClick={ClickHandler} to="/about">En savoir + </Link>
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
@@ -76,10 +76,10 @@ class Hero extends Component {
                                  <div className="container header-p">
                                     <div className="row">
                                         <div className="col col-lg-6 hx-slide-caption">
-                                            <h2>Sérénité</h2>
-                                            <p>Nous sommes des professionel qualifiés.</p>
+                                            {/* <h2>Sérénité</h2> */}
+                                            <h2>Nous mettons à votre disposition notre expertise acquise au fil des année</h2>
                                             <div className="btn-style">
-                                                <Link onClick={ClickHandler} to="/about">En savoir plus + nous</Link>
+                                                <Link onClick={ClickHandler} to="/about">En savoir plus + </Link>
                                             </div>
                                         </div>
                                         <div className="col-lg-6">

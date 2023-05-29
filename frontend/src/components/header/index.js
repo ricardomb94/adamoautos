@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../images/logo/logo-2.png'
+import Logo from '../../images/adamologo.png'
 import {Link}  from 'react-router-dom'
 import MobileMenu from '../MobileMenu'
 import HeaderTopbar from '../HeaderTopbar'
@@ -50,7 +50,7 @@ const Header = (props) => {
                                                 <li><Link onClick={ClickHandler} to="/project-details">project details</Link></li>
                                             </ul>
                                         </li>
-                                        <li><Link onClick={ClickHandler} to="/">Pages</Link>
+                                        <li><Link onClick={ClickHandler} to="/">Compte</Link>
                                             <ul className="submenu">
                                                 {/* <li><Link onClick={ClickHandler} to="/pricing">pricing table</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/team">Team</Link></li>
