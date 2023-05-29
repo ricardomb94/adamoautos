@@ -19,11 +19,11 @@ class Hero extends Component {
         var settings = {
             dots: true,
             arrows: true,
-            speed: 1500,
+            speed: 2000,
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 3500,
+            autoplaySpeed: 5000,
             fade: true
         };
 
@@ -41,7 +41,7 @@ class Hero extends Component {
                                     <div className="row">
                                         <div className="col col-lg-6 hx-slide-caption">
                                             {/* <h2>Réparation</h2> */}
-                                            <h2>Nous vous proposons un service de qualité professionelle.</h2>
+                                            <h2>Nous vous proposons un service personnalisé de qualité professionelle.</h2>
                                             <div className="btn-style">
                                                 <Link onClick={ClickHandler} to="/about">En savoir + </Link>
                                             </div>
@@ -77,7 +77,7 @@ class Hero extends Component {
                                     <div className="row">
                                         <div className="col col-lg-6 hx-slide-caption">
                                             {/* <h2>Sérénité</h2> */}
-                                            <h2>Nous mettons à votre disposition notre expertise acquise au fil des année</h2>
+                                            <h2>Votre véhicule est entre de bonnes main grâce à une expertise acquise au fil des années</h2>
                                             <div className="btn-style">
                                                 <Link onClick={ClickHandler} to="/about">En savoir plus + </Link>
                                             </div>
