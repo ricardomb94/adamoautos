@@ -36,22 +36,22 @@ class ContactForm extends Component {
             notes, error } = this.state;
 
         if (name === '') {
-            error.name = "Please enter your name";
+            error.name = "Veuillez renseigner votre nom";
         }
         if (email === '') {
-            error.email = "Please enter your email";
+            error.email = "Veuillez renseigner votre email";
         }
         if (service === '') {
-            error.service = "Please enter your service";
+            error.service = "Veuillez renseigner indiquer un service";
         }
         if (phone === '') {
-            error.phone = "Please enter your phone number";
+            error.phone = "Veuillez renseigner votre numéro de téléphone";
         }
         if (events === '') {
             error.events = "Select your event list";
         }
         if (notes === '') {
-            error.notes = "Please enter your note";
+            error.notes = "Veuillez renseigner la nature de votre problème";
         }
 
 

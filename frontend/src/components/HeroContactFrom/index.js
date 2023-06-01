@@ -63,13 +63,13 @@ class HeroContactFrom extends Component {
         return(
             <div className="hx-hero-contact">
                 <div className="hx-contact-form">
-                    <h2>Request  a Quote</h2>
-                    <p>Just provide some basic information about the service you need .</p>
+                    <h2>Besoin d'aide ?</h2>
+                    <p>Dites-nous en quelques mots le service dont vous avez besoin</p>
                     <form onSubmit={this.subimtHandler} className="form">
                         <div className="row">
                             <div className="col-lg-12 col-md-12">
                                 <div className="form-field">
-                                    <input className="form-control" value={name} onChange={this.changeHandler} type="text" name="name" placeholder="Name"/>
+                                    <input className="form-control" value={name} onChange={this.changeHandler} type="text" name="name" placeholder="Nom"/>
                                     <p>{error.name ? error.name : ''}</p>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@ class HeroContactFrom extends Component {
                             </div>
                             <div className="col-lg-12">
                                 <div className="form-submit">
-                                    <button type="submit" className="theme-btn">Send Message</button>
+                                    <button type="submit" className="theme-btn">Soumettre</button>
                                 </div>
                             </div>
                         </div>

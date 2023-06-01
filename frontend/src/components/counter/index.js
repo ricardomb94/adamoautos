@@ -5,7 +5,7 @@ const CounterSection = (props) => {
     return(
         <div className={`hx-counter-area ${props.counterClass}`}>
             <div className="container">
-                <div className="row">
+                {/* <div className="row">
                     <div className="col-lg-12">
                         <div className="hx-counter-grids">
                             <div className="grid">
@@ -24,7 +24,7 @@ const CounterSection = (props) => {
                                 <div>
                                     <h2><span className="odometer" data-count="1026">1026</span></h2>
                                 </div>
-                                <p>Satisfied Client</p>
+                                <p>Clients Satisfaits</p>
                             </div>
                             <div className="grid">
                                 <div className="hx-counter-icon">
@@ -33,7 +33,7 @@ const CounterSection = (props) => {
                                 <div>
                                     <h2><span className="odometer" data-count="25">25</span>+</h2>
                                 </div>
-                                <p>Years Experience</p>
+                                <p>Ans d'Experience</p>
                             </div>
                             <div className="grid">
                                 <div className="hx-counter-icon">
@@ -42,11 +42,11 @@ const CounterSection = (props) => {
                                 <div>
                                     <h2><span className="odometer" data-count="3215">3215</span></h2>
                                 </div>
-                                <p>Compleate Project</p>
+                                <p>Interventions</p>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

@@ -6,7 +6,7 @@ import HeroContactFrom from '../HeroContactFrom'
 
 import './style.css'
 
-import hero1 from '../../images/reparateur.jpg'
+import hero1 from '../../images/slider-moteur.jpg'
 import hero2 from '../../images/chauffeur.jpg'
 import hero3 from '../../images/chauffeur-2.jpg'
 import { Link } from "react-router-dom";
@@ -58,7 +58,7 @@ class Hero extends Component {
                                 <div className="container header-p">
                                     <div className="row">
                                         <div className="col col-lg-6 hx-slide-caption">
-                                            <h2>Votre satifaction est coeur de notre stratégie</h2>
+                                            <h2>Votre satifaction est au coeur de notre stratégie</h2>
                                             {/* <p>Votre véhicule est entre de bonnes mains.</p> */}
                                             <div className="btn-style">
                                                 <Link onClick={ClickHandler} to="/about">En savoir + </Link>
@@ -77,7 +77,7 @@ class Hero extends Component {
                                     <div className="row">
                                         <div className="col col-lg-6 hx-slide-caption">
                                             {/* <h2>Sérénité</h2> */}
-                                            <h2>Nous mettons à votre disposition notre expertise acquise au fil des année</h2>
+                                            <h2>Nous mettons à votre disposition une expertise acquise au fil des années</h2>
                                             <div className="btn-style">
                                                 <Link onClick={ClickHandler} to="/about">En savoir plus + </Link>
                                             </div>

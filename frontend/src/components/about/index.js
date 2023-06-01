@@ -1,5 +1,5 @@
 import React from 'react'
-import abimg from '../../images/about/img-2.png'
+import abimg from '../../images/entretien-auto.jpg'
 // import VideoModal from '../ModalVideo'
 import { Link } from "react-router-dom";
 import './style.css'
@@ -15,11 +15,12 @@ const About = (props) => {
                     <div className="col-lg-6 col-12">
                         <div className="hx-about-content">
                             <div className="hx-site-title">
-                                <span>Qui sommes-nous</span>
-                                <h2>Comment pouvons-nous vous aider</h2>
+                                <span>Adamo Autos</span>
+                                <h2 className="hx-contact-content">Votre garage de référence</h2>
                             </div>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum</p>
-                            <p>There isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary you need to be sure</p>
+                            <p>Notre garage met à votre disposition un mécanicien qualifié et expérimenté pour répondre à tous vos besoins en matière d'entretien et de réparation de véhicules. <br/>
+                            Doté d'une expertise approfondie sur les diffirents aspects de la mécanique automobile, il peut travailler sur une large gamme de véhicules utilitaires et de particuliers. Nous accordons une grande importance à la satisfaction de nos clients et nous nous efforçons de fournir un service de qualité en utilisant des équipements modernes et des pièces de rechange de haute qualité. 
+                            <br/>En plus des réparations, nous proposons également des véhicules à la vente ainsi que des services d'entretien régulier pour assurer la longévité et les performances optimales de votre véhicule. Nous nous engageons à fournir un service rapide, efficace et personnalisé, en respectant les délais convenus. Visitez notre garage automobile et faites-nous confiance pour prendre soin de votre véhicule avec un service de qualité supérieure."</p>
                             <div className="btns">
                                 <div className="btn-style"><Link onClick={ClickHandler} to="/about">En savoir +</Link></div>
                             </div>
@@ -29,9 +30,9 @@ const About = (props) => {
                         <div className="hx-about-img">
                         <img src={abimg} alt=""/> 
                         </div>
-                        <div className="video-btn">
-                            {/* <VideoModal/> */}
-                        </div>
+                        {/* <div className="video-btn">
+                            <VideoModal/>
+                        </div> */}
                     </div>
                 </div>
             </div>

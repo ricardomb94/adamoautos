@@ -8,37 +8,55 @@ const Services = (props) => {
     const service = [
         {
             icon: 'fi flaticon-car-repair',
-            title: 'Diagnostic',
+            title: 'Diagnostique et entretien',
             des:'It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,',
             link:'/service-details'
         },
         {
             icon: 'fi flaticon-battery',
-            title: 'Batteries',
+            title: 'Charge et Démarrage',
             des:'It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,',
             link:'/service-details'
         },
         {
             icon: 'fi flaticon-electricity',
-            title: 'Breaks',
+            title: 'Embrayage',
             des:'It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,',
             link:'/service-details'
         },
         {
             icon: 'fi flaticon-turbo',
-            title: 'Engine Repair',
+            title: 'Moteur',
             des:'It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,',
             link:'/service-details'
         },
         {
             icon: 'fi flaticon-tyre',
-            title: 'Tires Replacement',
+            title: 'Roues',
             des:'It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,',
             link:'/service-details'
         },
         {
             icon: 'fi flaticon-car-1',
-            title: 'Transmission',
+            title: 'Direction et Transmission',
+            des:'It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,',
+            link:'/service-details'
+        },
+        {
+            icon: 'fi flaticon-car-2',
+            title: 'Suspension',
+            des:'It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,',
+            link:'/service-details'
+        },
+        {
+            icon: 'fi flaticon-car-2',
+            title: 'Echappement',
+            des:'It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,',
+            link:'/service-details'
+        },
+        {
+            icon: 'fi flaticon-car-2',
+            title: 'Distribution',
             des:'It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,',
             link:'/service-details'
         },
@@ -56,8 +74,8 @@ const Services = (props) => {
             <div className="container">
                 <div className="col-12">
                     <div className="hx-site-title-1 text-center">
-                        <span>What We Do</span>
-                        <h2>Our Services</h2>
+                        {/* <span>What We Do</span> */}
+                        <h2>Nos Services</h2>
                     </div>
                 </div>
                 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import sd1 from '../../images/service-details/img-1.jpg'
+import sd1 from '../../images/service-moteur-2.jpg'
 import sd2 from '../../images/service-details/img-2.jpg'
 import SingleSidebar from '../SingleSidebar'
 import './style.css'
