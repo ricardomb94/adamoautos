@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactForm from '../ContactFrom'
-import cs1 from '../../images/contact/2.png'
+import cs1 from '../../images/man-sending-message.jpg'
 import './style.css'
 
 const Contactpage = () => {

@@ -84,13 +84,13 @@ class ContactForm extends Component {
                 <div className="row">
                     <div className="col-lg-6 col-md-12">
                         <div className="form-field">
-                            <input value={name} onChange={this.changeHandler} type="text" name="name" placeholder="Name"/>
+                            <input value={name} onChange={this.changeHandler} type="text" name="name" placeholder="Nom"/>
                             <p>{error.name ? error.name : ''}</p>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
                         <div className="form-field">
-                            <input value={phone} onChange={this.changeHandler} type="text" name="phone" placeholder="Phone"/>
+                            <input value={phone} onChange={this.changeHandler} type="text" name="phone" placeholder="Téléphone"/>
                             <p>{error.phone ? error.phone : ''}</p>
                         </div>
                     </div>
@@ -103,12 +103,14 @@ class ContactForm extends Component {
                     <div className="col-lg-6 col-md-12">
                         <div className="form-field">
                             <select onChange={this.changeHandler} value={service} type="text" name="service" className="form-control">
-                                <option>Service Select</option>
-                                <option>Tires Replacement</option>
-                                <option>Transmission</option>
-                                <option>Diagnostic</option>
-                                <option>Batteries</option>
-                                <option>Breaks</option>
+                                <option>Choisissez un service</option>
+                                <option>Diagnostique et entretien</option>
+                                <option>Charge et Démarrage</option>
+                                <option>Embrayage</option>
+                                <option>Moteur</option>
+                                <option>Direction et Transmission</option>
+                                <option>Suspension</option>
+                                <option>Echappement</option>
                             </select>
                             <p>{error.service ? error.service : ''}</p>
                         </div>
@@ -120,7 +122,7 @@ class ContactForm extends Component {
                     </div>
                     <div className="col-lg-12">
                         <div className="form-submit">
-                            <button type="submit" className="theme-btn">Send Message</button>
+                            <button type="submit" className="theme-btn">Envoyer</button>
                         </div>
                     </div>
                 </div>

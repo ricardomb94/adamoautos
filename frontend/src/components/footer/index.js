@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link}  from 'react-router-dom'
-import Logo from '../../images/logo/logo-2.png'
+import Logo from '../../images/adamologo.png'
 import n1 from '../../images/footer/img-1.jpg'
 import n2 from '../../images/footer/img-2.jpg'
 import './style.css'
@@ -20,7 +20,7 @@ const Footer = (props) =>{
                         <div className="hx-site-logo">
                             <Link to="/"><img src={Logo} alt=""/></Link>
                         </div>
-                        <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                        <p>Votre garage de référence.</p>
                         <div className="social">
                             <ul className="d-flex">
                                 <li><Link onClick={ClickHandler} to="/"><i className="fa fa-facebook" aria-hidden="true"></i></Link></li>
