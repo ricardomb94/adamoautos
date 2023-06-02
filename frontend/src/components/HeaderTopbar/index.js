@@ -8,8 +8,8 @@ const HeaderTopbar = (props) => {
                 <div className="row align-items-center">
                     <div className="col-md-9 col-sm-12 col-12 col-lg-8 col-t">
                         <ul className="d-flex account_login-area">
-                            <li><i className="fa fa-clock-o" aria-hidden="true"></i>Mon - Tues : 6.00 am - 10.00 pm</li>
-                            <li><i className="fa fa-map-marker"></i>121 King St, Melbourne, Australia</li>
+                            <li><i className="fa fa-clock-o" aria-hidden="true"></i>Lun-vend: 9h - 18h</li>
+                            <li><i className="fa fa-map-marker"></i>14 chemin des closeaux, 94440 Villecresnes</li>
                         </ul>
                     </div>
                     <div className="col-md-3 col-sm-12 col-12 col-lg-4 col-m">

@@ -3,7 +3,7 @@ import Navbar from '../../components/Navbar'
 import Hero from '../../components/hero'
 import About from '../../components/about'
 import Services from '../../components/Services'
-import CounterSection from '../../components/counter'
+// import CounterSection from '../../components/counter'
 import PricingPlan from '../../components/PricingPlan'
 import TeamSection from '../../components/team'
 import ContactSection from '../../components/ContactSection'
@@ -18,14 +18,14 @@ const HomePage =() => {
         <Fragment>
             <Navbar/>
             <Hero/>
-            <About/>
+            {/* <About/> */}
             <Services sClass={'hx-service-style-2'}/>
-            <CounterSection/>
-            <PricingPlan/>
-            <TeamSection/>
+            {/* <CounterSection/> */}
+            {/* <PricingPlan/> */}
+            {/* <TeamSection/> */}
             <ContactSection/>
             {/* <BlogSection/> */}
-            <Client/>
+            {/* <Client/> */}
             <Footer/>
             <Scrollbar/>
         </Fragment>

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link}  from 'react-router-dom'
-import Logo from '../../images/logo/logo-2.png'
+import Logo from '../../images/adamologo.png'
 import n1 from '../../images/footer/img-1.jpg'
 import n2 from '../../images/footer/img-2.jpg'
 import './style.css'
@@ -20,7 +20,7 @@ const Footer = (props) =>{
                         <div className="hx-site-logo">
                             <Link to="/"><img src={Logo} alt=""/></Link>
                         </div>
-                        <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                        <p>Votre garage de référence.</p>
                         <div className="social">
                             <ul className="d-flex">
                                 <li><Link onClick={ClickHandler} to="/"><i className="fa fa-facebook" aria-hidden="true"></i></Link></li>
@@ -31,7 +31,7 @@ const Footer = (props) =>{
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6 footer-t">
-                        <div className="hx-site-footer-link">
+                        {/* <div className="hx-site-footer-link">
                             <h3>Recent post</h3>
                             <div className="hx-latest-section">
                                 <div className="posts">
@@ -55,20 +55,20 @@ const Footer = (props) =>{
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6 footer-t">
                         <div className="hx-site-footer-adress">
                             <h3>Address</h3>
                             <div className="adress-section">
                                 <ul>
-                                    <li>Head Office Address</li>
-                                    <li>121 King Street, Melbourne West, </li>
-                                    <li>Australia</li>
+                                    <li>Adresse</li>
+                                    <li>14 chemin des closeaux, 94440 Villecresnes </li>
+                                    <li></li>
                                 </ul>
                                 <ul className="ad">
-                                    <li><span>Phone:</span> 888 123-4587</li>
-                                    <li><span>Email:</span> info@example.com</li>
+                                    <li><span>Phone:</span> 07 51 30 47 04</li>
+                                    <li><span>Email:</span> info@adamoautos.com</li>
                                 </ul>
                             </div>
                         </div>
@@ -78,12 +78,14 @@ const Footer = (props) =>{
                             <h3>Services</h3>
                             <div className="service-section">
                                 <ul>
-                                    <li><Link onClick={ClickHandler} to="/service-details">Engine Repair</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-details">Tire Replacement</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-details">Trandmission</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-details">Diagnostic</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-details">Batteries</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-details">Break Repair</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service-details">Diagnostique et entretien</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service-details">Charge et Démarrage</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service-details">Embrayage</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service-details">Moteur</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service-details">Roues</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service-details">Direction et Transmission</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service-details">Suspension</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service-details">Echappement</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -96,7 +98,7 @@ const Footer = (props) =>{
                 <div className="hx-site-footer-bottom-content">
                     <div className="row">
                         <div className="col-12">
-                            <span>Privacy Policy | © 2021 <Link onClick={ClickHandler} to="/home">Autalogic.</Link> All rights reserved</span>
+                            <span>Privacy Policy | © 2023 <Link onClick={ClickHandler} to="/home">Adamo Autos.</Link> All rights reserved</span>
                         </div>
                     </div>
                 </div>

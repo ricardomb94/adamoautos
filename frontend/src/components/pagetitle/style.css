@@ -3,7 +3,7 @@
 ===========================================*/
 
 .breadcumb-area {
-  background: url(../../images/breadcumb/bg.jpg) no-repeat center top / cover;
+  background: url(../../images/driver.jpg) no-repeat center top / cover;
   min-height: 300px;
   position: relative;
   display: flex;
@@ -21,9 +21,11 @@
   background: #041827c2;
   opacity: .80;
 }
+
 .breadcumb-wrap {
   padding-top: 3px;
 }
+
 .breadcumb-wrap h2 {
   font-size: 36px;
   font-weight: 600;

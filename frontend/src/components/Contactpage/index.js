@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactForm from '../ContactFrom'
-import cs1 from '../../images/contact/2.png'
+import cs1 from '../../images/man-sending-message.jpg'
 import './style.css'
 
 const Contactpage = () => {
@@ -17,7 +17,7 @@ const Contactpage = () => {
                         </div>
                         <div className="col col-lg-7 col-md-12 col-sm-12">
                             <div className="hx-contact-content">
-                                <h2>Get In Touch</h2>
+                                <h2>Laissez-nous un message</h2>
                                 <div className="hx-contact-form">
                                     <ContactForm/>
                                 </div>
@@ -35,8 +35,8 @@ const Contactpage = () => {
                                     <i className="fi flaticon-call"></i>
                                 </div>
                                 <div className="hx-contact-gd-text">
-                                    <h4>Call Us Now</h4>
-                                    <span>+(008) 001-234-567 </span>
+                                    <h4>Vous pouvez nous appeler</h4>
+                                    <span>+(033) 07 51 30 47 04 </span>
                                 </div>
                             </div>
                         </div>
@@ -46,8 +46,8 @@ const Contactpage = () => {
                                     <i className="fi flaticon-message"></i>
                                 </div>
                                 <div className="hx-contact-gd-text">
-                                    <h4>Mail Us Today</h4>
-                                    <span>youremail@gmail.com</span>
+                                    <h4>Envoyez-nous un email</h4>
+                                    <span>info@adamoautos.com</span>
                                 </div>
                             </div>
                         </div>
@@ -57,8 +57,8 @@ const Contactpage = () => {
                                     <i className="fi flaticon-placeholder"></i>
                                 </div>
                                 <div className="hx-contact-gd-text">
-                                    <h4>Our Location</h4>
-                                    <span>150 Street, London, USA</span>
+                                    <h4>Localisation</h4>
+                                    <span>14 chemin des closeaux, 94440 Villecresnes</span>
                                 </div>
                             </div>
                         </div>

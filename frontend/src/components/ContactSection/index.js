@@ -1,7 +1,7 @@
 import React from 'react';
 import ContactForm from '../ContactFrom'
 import './style.css'
-import contactimg from '../../images/contact/1.png'
+import contactimg from '../../images/message.jpg'
 
 const ContactSection = () => {
 
@@ -12,7 +12,7 @@ const ContactSection = () => {
                     <div className="col col-lg-7 col-md-12 col-sm-12">
                         <div className="hx-contact-content">
                             <div className="row">
-                                <h2>Book An Appointment</h2>
+                                <h2>Prenez Rendez-vous</h2>
                             </div>
                             <div className="hx-contact-form">
                                 <ContactForm/>

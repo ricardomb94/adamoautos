@@ -13,10 +13,13 @@ const CasePage =() => {
     return(
         <Fragment>
             <Navbar/>
-            <PageTitle pageTitle={'About Us'} pagesub={'About'}/> 
+            <PageTitle 
+                pageTitle={'Qui sommes-nous'} 
+                pagesub={'About'}
+                /> 
             <About/>
             <CounterSection counterClass={'counter-style-2'}/>
-            <Services sClass={'hx-service-style-2'}/>
+            {/* <Services sClass={'hx-service-style-2'}/> */}
             <TeamSection/>
             <Footer/>
             <Scrollbar/>
