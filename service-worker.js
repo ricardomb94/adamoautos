@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/adamoautos/precache-manifest.1e77964a34b55b335c50891dcfc554e0.js"
+  "/adamoautos/precache-manifest.54e07d9226a5a882eae00579d1b57f8e.js"
 );
 
 self.addEventListener('message', (event) => {
