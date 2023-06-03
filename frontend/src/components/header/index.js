@@ -47,7 +47,7 @@ const Header = (props) => {
                                         <li><Link onClick={ClickHandler} to="/project">Achats</Link>
                                             <ul className="submenu">
                                                 {/* <li><Link onClick={ClickHandler} to="/project">project</Link></li> */}
-                                                <li><Link onClick={ClickHandler} to="/project-details">project details</Link></li>
+                                                {/* <li><Link onClick={ClickHandler} to="/project-details">project details</Link></li> */}
                                             </ul>
                                         </li>
                                         <li><Link onClick={ClickHandler} to="/">Compte</Link>
@@ -64,7 +64,7 @@ const Header = (props) => {
                                 </nav>
                             </div>
                         </div>
-                        <div className="col-lg-1 col-md-2 col-sm-2 col-2 search col-t">
+                        {/* <div className="col-lg-1 col-md-2 col-sm-2 col-2 search col-t">
                             <ul>
                                 <li><Link onClick={ClickHandler} to="/"><i className="fa fa-search"></i></Link>
                                     <ul>
@@ -77,7 +77,7 @@ const Header = (props) => {
                                     </ul>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
                         <div className="col-lg-1 col-md-2 col-sm-2 col-2 d-block d-lg-none">
                             <MobileMenu/>
                         </div>

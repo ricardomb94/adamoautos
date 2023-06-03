@@ -42,7 +42,7 @@ class ContactForm extends Component {
             error.email = "Veuillez renseigner votre email";
         }
         if (service === '') {
-            error.service = "Veuillez renseigner indiquer un service";
+            error.service = "Veuillez indiquer un service";
         }
         if (phone === '') {
             error.phone = "Veuillez renseigner votre numéro de téléphone";
@@ -51,7 +51,7 @@ class ContactForm extends Component {
             error.events = "Select your event list";
         }
         if (notes === '') {
-            error.notes = "Veuillez renseigner la nature de votre problème";
+            error.notes = "Veuillez renseigner la nature de votre panne";
         }
 
 

@@ -92,7 +92,7 @@ class Project extends Component {
                         <div className="col col-xs-12 sortable-gallery">
                             <div className="projects-menu">
                                 <ul>
-                                    <li><Link data-filter="*" to="/" className="current" onClick={allElement}>Toutes les voiture</Link></li>
+                                    <li><Link data-filter="*" to="/" className="current" onClick={allElement}>Toutes les voitures</Link></li>
                                     <li><Link data-filter=".Web-Design" to="/" onClick={webDesign}>Renault</Link></li>
                                     <li><Link data-filter=".Print-Design" to="/" onClick={printDesign}>Peugeot</Link></li>
                                     <li><Link data-filter=".Web-Application" to="/" onClick={webApp}>Citroen</Link></li>               
