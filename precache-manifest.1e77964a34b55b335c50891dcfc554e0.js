@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "744b22b726bdff8e9b47b94e7c58c09b",
+    "revision": "bcbbc5141f2f14c90e434d1ea7025f9e",
     "url": "/adamoautos/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/adamoautos/static/css/2.aba6ef6e.chunk.css"
   },
   {
-    "revision": "86730d6b54574f6204bb",
+    "revision": "ad7fdf00a569b8ff8f37",
     "url": "/adamoautos/static/css/main.f13a0661.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/adamoautos/static/js/2.c332b2c1.chunk.js"
   },
   {
-    "revision": "86730d6b54574f6204bb",
-    "url": "/adamoautos/static/js/main.dde24f71.chunk.js"
+    "revision": "ad7fdf00a569b8ff8f37",
+    "url": "/adamoautos/static/js/main.9cf6a610.chunk.js"
   },
   {
     "revision": "d77e38ba14163eebab95",
