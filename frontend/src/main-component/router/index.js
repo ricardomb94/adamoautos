@@ -7,6 +7,7 @@ import Homepage from '../HomePage'
 import AboutPage from '../AboutPage'
 import ServicePage from '../ServicePage'
 import ServiceDetailsPage from '../ServiceDetailsPage'
+import ProductPage from '../ProductPage';
 import ProjectPage from '../ProjectPage'
 import ProjectDetailsPage from '../ProjectDetailsPage'
 // import PricingPage from '../PricingPage'
@@ -16,6 +17,7 @@ import TeamPage from '../TeamPage'
 // import BlogPageFullwidth from '../BlogPageFullwidth'
 // import BlogDetailsPage from '../BlogDetails' 
 // import BlogDetailsFull from '../BlogDetailsFull'
+// import Catalogue from '../Catalogue'
 import ErrorPage from '../ErrorPage'  
 import ContactPage from '../ContactPage' 
 import LoginPage from '../LoginPage' 
@@ -36,8 +38,10 @@ const AllRoute = () => {
             <Route path='/about' component={AboutPage} />
             <Route path='/service' component={ServicePage} />
             <Route path='/service-details' component={ServiceDetailsPage} />
+            <Route path='/product' component={ProductPage} />
             <Route path='/project' component={ProjectPage} />
             <Route path='/project-details' component={ProjectDetailsPage} />
+            {/* <Route path='/catalogue' component={Catalogue} /> */}
             {/* <Route path='/pricing' component={PricingPage}/> */}
             <Route path='/team' component={TeamPage}/>
             <Route path='/contact' component={ContactPage}/>

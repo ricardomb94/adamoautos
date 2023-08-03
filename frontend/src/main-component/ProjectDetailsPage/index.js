@@ -11,7 +11,7 @@ const ProjectDetailsPage =() => {
         <Fragment>
             <Navbar/>
             <PageTitle 
-                pageTitle={"Proposition d'achat"} 
+                pageTitle={"Proposition de vente"} 
                 pagesub={'Achetez'}
             /> 
             <ProjectSingle/>
