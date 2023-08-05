@@ -3,12 +3,12 @@
 =========================================*/
 
 .hx-contact-area {
-  background: url(../../images/contact/1.jpg) center center/cover no-repeat local;
+  /* background: url(../../images/contact/1.jpg) center center/cover no-repeat local; */
   position: relative;
   padding-bottom: 60px;
 }
 
-.hx-contact-area.ptb-100-70{
+.hx-contact-area.ptb-100-70 {
   padding-bottom: 100px;
 }
 
@@ -47,19 +47,21 @@
 
   .hx-contact-area form .half-col,
   .hx-contact-area-s2 form .half-col {
-      width: 100%;
-      float: left;
+    width: 100%;
+    float: left;
   }
 }
+
 @media (max-width: 991px) {
 
-  .hx-contact-img{
-    top: 40px!important;
+  .hx-contact-img {
+    top: 40px !important;
   }
 }
+
 @media (max-width: 767px) {
 
-  .hx-contact-area.ptb-100-70{
+  .hx-contact-area.ptb-100-70 {
     padding-bottom: 70px;
   }
 }
@@ -69,11 +71,13 @@
 .hx-contact-area-s2 form .submit-btn-wrapper {
   padding-bottom: 0;
 }
+
 .submit-btn-wrapper button.theme-btn {
   padding: 13px 35px;
   font-size: 16px;
 }
-.hx-contact-area form .form-field{
+
+.hx-contact-area form .form-field {
   margin-bottom: 30px;
 }
 
@@ -136,7 +140,7 @@
   padding: 15px;
 }
 
-.hx-contact-area form p{
+.hx-contact-area form p {
   color: red;
   font-size: 0.875rem;
   font-weight: normal;

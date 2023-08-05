@@ -9,7 +9,7 @@ const Services = (props) => {
         {
             icon: 'fi flaticon-car-repair',
             title: 'Diagnostique et entretien',
-            des:'It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,',
+            des:'Vidange + filtre à huile, Révision complète, Freinage: Changement de plaquettes de frein, Liquide de frein, Frein à tambour',
             link:'/service-details'
         },
         {

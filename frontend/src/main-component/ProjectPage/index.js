@@ -10,7 +10,10 @@ const ProjectPage =() => {
     return(
         <Fragment>
             <Navbar/>
-            <PageTitle pageTitle={'Project'} pagesub={'Project'}/> 
+            <PageTitle 
+                pageTitle={"Proposition de vente"} 
+                pagesub={'Achetez'}
+            /> 
             <Project/>
             <Footer/>
             <Scrollbar/>

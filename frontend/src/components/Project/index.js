@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import Gallery_1 from '../../images/project/img-1.jpg';
-import Gallery_2 from '../../images/project/img-2.jpg';
-import Gallery_3 from '../../images/project/img-3.jpg';
-import Gallery_4 from '../../images/project/img-4.jpg';
-import Gallery_5 from '../../images/project/img-5.jpg';
-import Gallery_6 from '../../images/project/img-6.jpg';
-import Gallery_7 from '../../images/project/img-7.jpg';
-import Gallery_8 from '../../images/project/img-8.jpg';
-import Gallery_9 from '../../images/project/img-9.jpg';
+import Gallery_1 from '../../images/renault-clio-rouge.png';
+import Gallery_2 from '../../images/renault-clio-orange.png';
+import Gallery_3 from '../../images/renault-clio-rouge.png';
+import Gallery_4 from '../../images/renault-clio-orange.png';
+import Gallery_5 from '../../images/renault-clio-rouge.png';
+import Gallery_6 from '../../images/renault-clio-orange.png';
+import Gallery_7 from '../../images/renault-clio-rouge.png';
+import Gallery_8 from '../../images/renault-clio-orange.png';
+import Gallery_9 from '../../images/renault-clio-rouge.png';
 import {Link} from 'react-router-dom'
 import './style.css'
 
@@ -92,11 +92,11 @@ class Project extends Component {
                         <div className="col col-xs-12 sortable-gallery">
                             <div className="projects-menu">
                                 <ul>
-                                    <li><Link data-filter="*" to="/" className="current" onClick={allElement}>All Project</Link></li>
-                                    <li><Link data-filter=".Web-Design" to="/" onClick={webDesign}>Tire Replacement</Link></li>
-                                    <li><Link data-filter=".Print-Design" to="/" onClick={printDesign}>Break Repair</Link></li>
-                                    <li><Link data-filter=".Web-Application" to="/" onClick={webApp}>Engine</Link></li>               
-                                    <li><Link data-filter=".Photography" to="/" onClick={Photography}>Transmission</Link></li> 
+                                    <li><Link data-filter="*" to="/" className="current" onClick={allElement}>Toutes les voitures</Link></li>
+                                    <li><Link data-filter=".Web-Design" to="/" onClick={webDesign}>Nissan Pixo</Link></li>
+                                    <li><Link data-filter=".Print-Design" to="/" onClick={printDesign}>Audi A1</Link></li>
+                                    <li><Link data-filter=".Web-Application" to="/" onClick={webApp}>Volswagen Up</Link></li>               
+                                    <li><Link data-filter=".Photography" to="/" onClick={Photography}>Toyota</Link></li> 
                                 </ul>
                             </div>
                             <div className="gallery-container gallery-fancybox masonry-gallery payra-masonary">

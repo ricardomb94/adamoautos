@@ -1,8 +1,8 @@
 import React from 'react'
 import {Link}  from 'react-router-dom'
 import Logo from '../../images/adamologo.png'
-import n1 from '../../images/footer/img-1.jpg'
-import n2 from '../../images/footer/img-2.jpg'
+// import n1 from '../../images/footer/img-1.jpg'
+// import n2 from '../../images/footer/img-2.jpg'
 import './style.css'
 
 const Footer = (props) =>{

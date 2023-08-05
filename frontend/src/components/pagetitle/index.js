@@ -11,7 +11,7 @@ const PageTitle = (props) => {
                         <div className="breadcumb-wrap text-center">
                             <h2>{props.pageTitle}</h2>
                             <ul>
-                                <li><Link to="/home">Home</Link></li>
+                                <li><Link to="/home">Accueil</Link></li>
                                 <li><span>{props.pagesub}</span></li>
                             </ul>
                         </div>
