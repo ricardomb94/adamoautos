@@ -8,29 +8,6 @@ const menus = [
         id: 1,
         title: 'Accueil',
         link: '/home',
-        // submenu: [
-        //     {
-        //         id: 11,
-        //         title: 'Home style 1',
-        //         link: '/home'
-        //     },
-        //     {
-        //         id: 12,
-        //         title: 'Home style 2',
-        //         link: '/home2'
-        //     },
-        //     {
-        //         id: 13,
-        //         title: 'Home style 3',
-        //         link: '/home3'
-        //     },
-        // ]
-    },
-
-    {
-        id: 2,
-        title: 'Qui sommes-nous',
-        link: '/about',
     },
 
 {
@@ -52,8 +29,8 @@ const menus = [
     },
 {
     id: 4,
-        title: 'Achat',
-        link: '/project',
+        title: 'Catalogue',
+        link: '/catalogue',
         // submenu: [
         //     {
         //         id: 41,
@@ -72,22 +49,7 @@ const menus = [
         title: 'Compte',
         link: '/',
         submenu: [
-            // {
-            //     id: 71,
-            //     title: 'Pricing',
-            //     link: '/pricing'
-            // },
-            // {
-            //     id: 75,
-            //     title: 'Team',
-            //     link: '/team'
-            // },
-            // {
-            //     id: 76,
-            //     title: 'Error 404',
-            //     link: '/404'
-            // },
-    
+            
             {
                 id: 79,
                 title: 'Connexion',
@@ -102,38 +64,12 @@ const menus = [
         ]
     },
 
-    // {
-    //     id: 5,
-    //     title: 'Blog',
-    //     link: '/blog',
-    //     submenu: [
-    //         {
-    //             id: 51,
-    //             title: 'Blog',
-    //             link: '/blog'
-    //         },
-    //         {
-    //             id: 52,
-    //             title: 'Blog with sidebar',
-    //             link: '/blog-list'
-    //         },
-    //         {
-    //             id: 53,
-    //             title: 'Blog full width',
-    //             link: '/blog-fullwidth'
-    //         },
-    //         {
-    //             id: 54,
-    //             title: 'Blog single',
-    //             link: '/blog-single'
-    //         },
-    //         {
-    //             id: 55,
-    //             title: 'Blog single fullwidth',
-    //             link: '/blog-single-fullwidth'
-    //         },
-    //     ]
-    // },
+   
+    {
+        id: 2,
+        title: 'Qui sommes-nous',
+        link: '/about',
+    },
     {
         id: 88,
         title: 'Contact',

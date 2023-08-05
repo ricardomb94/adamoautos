@@ -7,7 +7,7 @@ import Homepage from '../HomePage'
 import AboutPage from '../AboutPage'
 import ServicePage from '../ServicePage'
 import ServiceDetailsPage from '../ServiceDetailsPage'
-import ProductPage from '../ProductPage';
+import CataloguePage from '../CataloguePage'
 import ProjectPage from '../ProjectPage'
 import ProjectDetailsPage from '../ProjectDetailsPage'
 // import PricingPage from '../PricingPage'
@@ -38,7 +38,7 @@ const AllRoute = () => {
             <Route path='/about' component={AboutPage} />
             <Route path='/service' component={ServicePage} />
             <Route path='/service-details' component={ServiceDetailsPage} />
-            <Route path='/product' component={ProductPage} />
+            <Route path='/catalogue' component={CataloguePage} />
             <Route path='/project' component={ProjectPage} />
             <Route path='/project-details' component={ProjectDetailsPage} />
             {/* <Route path='/catalogue' component={Catalogue} /> */}
