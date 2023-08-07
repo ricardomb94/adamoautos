@@ -4,6 +4,7 @@
   "main": "index.js",
   "repository": "https://github.com/ricardomb94/adamoautos.git",
   "author": "ricardomb94 <aymardmb@gmail.com>",
+  "type": "module",
   "license": "MIT",
   "scripts": {
     "start": "node backend/server",
