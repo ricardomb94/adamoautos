@@ -48,7 +48,7 @@ class ContactForm extends Component {
             error.phone = "Veuillez renseigner votre numéro de téléphone";
         }
         if (events === '') {
-            error.events = "Select your event list";
+            error.events = "Selectionnez un élément";
         }
         if (notes === '') {
             error.notes = "Veuillez renseigner la nature de votre panne";

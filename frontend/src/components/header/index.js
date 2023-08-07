@@ -31,13 +31,7 @@ const Header = (props) => {
                                 <nav className="nav_mobile_menu">
                                     <ul>
                                         <li className="active"><Link onClick={ClickHandler} to="/">Accueil</Link>
-                                            {/* <ul className="submenu">
-                                                <li className="active"><Link onClick={ClickHandler} to="/home">Home One</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/home2">Home Two</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/home3">Home Three</Link></li>
-                                            </ul> */}
                                         </li>
-                                        <li><Link onClick={ClickHandler} to="/about">Qui sommes-nous</Link></li>
                                         <li><Link onClick={ClickHandler} to="/service">services</Link>
                                             <ul className="submenu">
                                                 <li><Link onClick={ClickHandler} to="/service">service</Link></li>
@@ -46,22 +40,23 @@ const Header = (props) => {
                                         </li>
                                         <li>
                                             <Link onClick={ClickHandler} to="/catalogue">Catalogue</Link>
-                                            <Link onClick={ClickHandler} to="/project">Ventes</Link>
+                                            {/* <Link onClick={ClickHandler} to="/project">Ventes</Link> */}
 
                                             {/* <ul className="submenu"> */}
                                                 {/* <li><Link onClick={ClickHandler} to="/project">project</Link></li> */}
                                                 {/* <li><Link onClick={ClickHandler} to="/project-details">project details</Link></li> */}
                                             {/* </ul> */}
                                         </li>
-                                        <li><Link onClick={ClickHandler} to="/">Compte</Link>
+                                        {/* <li><Link onClick={ClickHandler} to="/">Compte</Link>
                                             <ul className="submenu">
-                                                {/* <li><Link onClick={ClickHandler} to="/pricing">pricing table</Link></li>
+                                                <li><Link onClick={ClickHandler} to="/pricing">pricing table</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/team">Team</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/404">Error 404</Link></li> */}
+                                                <li><Link onClick={ClickHandler} to="/404">Error 404</Link></li> 
                                                 <li><Link onClick={ClickHandler} to="/login">Login</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/signup">Register</Link></li>
                                             </ul>
-                                        </li>
+                                        </li> */}
+                                         <li><Link onClick={ClickHandler} to="/about">Qui sommes-nous</Link></li>
                                         <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>          
                                     </ul>
                                 </nav>
