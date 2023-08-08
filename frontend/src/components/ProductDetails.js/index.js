@@ -1,7 +1,8 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import products from '../../products';
 import { Card } from 'react-bootstrap';
+import SingleSidebar from '../SingleSidebar';
 
 const ProductDetails = () => {
     const {id: productId} = useParams()
@@ -12,18 +13,33 @@ const ProductDetails = () => {
 
         return (
 
-            <section id="protfolio" >
-                <Card className="my-3 p-3 rounded">
-                    <Card.Img src={product.image} variant="top" className='hover-content'/>
-                        <Card.Body >
-                            <Card.Title as="div">
-                                <strong>{product.name}</strong>
-                            </Card.Title>
-                        <Card.Text as="h3">€{product.price}</Card.Text>
-                        <Card.Text as="p">{product.description}</Card.Text>            
-                    </Card.Body>
-                </Card>
-            </section>
+            <div className="hx-service-dt-area hx-section-padding">
+            <div className="container">
+                <div className="row">
+                    <SingleSidebar/>
+                    <div className="col-lg-8">
+                        <div className="hx-service-dt-right">
+                            <div className="hx-service-dt-img">
+                                <img src={product.image} alt=""/>
+                            </div>
+                            <p><span>T</span>{product.description}</p>
+                            <blockquote>The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words beautiful a benificial to world etc.
+                            </blockquote>
+                            <div className="hx-service-dt-s">
+                                <img src={product.image} alt="" />
+                                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. </p>
+                                <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,</p>
+                            </div>
+                        </div>
+                        <div className="prv-nx">
+                            <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. </p>
+                            <div className="pre-btn"><Link to="/catalogue">Previous</Link></div>
+                            {/* <div className="nex-btn"><Link to="/service-details">Next</Link></div> */}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         );
 }
 
