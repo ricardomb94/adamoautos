@@ -1,8 +1,9 @@
 const products = [
   {
-    _id: '1',
+    _id: 1,
     name: 'Audi A1',
     image: '/images/audi-slider1.jpeg',
+    thumbnail:[],
     description:
       'L\'Audi A1 est une voiture à hayon élégante et compacte qui respire la sophistication et la modernité. Elle présente un design extérieur élégant caractérisé par des lignes nettes, une calandre avant agressive et des phares à LED. Sa taille compacte en fait une voiture idéale pour la ville, permettant une maniabilité et un stationnement faciles.',
     brand: 'Audi A1',
@@ -14,7 +15,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '2',
+    _id: 2,
     name: 'Volgswagen Up',
     image:'/images/volgswagen-slider5.jpeg',
     description:
@@ -28,7 +29,7 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '3',
+    _id: 3,
     name: 'Nissan Pixo',
     image: '/images/nissan-slider1.jpeg',
       
@@ -43,7 +44,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '2',
+    _id: 2,
     name: 'Volgswagen Up',
     image:'/images/volgswagen-slider5.jpeg',
     description:
@@ -57,7 +58,7 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '3',
+    _id: 3,
     name: 'Nissan Pixo',
     image: '/images/nissan-slider4.jpeg',
       
@@ -72,7 +73,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '1',
+    _id: 1,
     name: 'Audi A1',
     image: '/images/audi-slider1.jpeg',
     description:

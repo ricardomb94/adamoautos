@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card} from 'react-bootstrap';
+import {Link} from 'react-router-dom'
 // import Rating from './Rating';
 // import './style.css'
 
@@ -15,15 +16,15 @@ const Product = ({product}) => {
                            
                             <div className="gallery-container gallery-fancybox masonry-gallery payra-masonary"> */}
                             <Card className="my-3 p-3 rounded">
-                                <a href={`/product/${product._id}`}>
+                                <Link to={`/product/${product._id}`}>
                                     <Card.Img src={product.image} variant="top" className='hover-content'/>
-                                </a>
+                                </Link>
                                 <Card.Body >
-                                   console.log( <a href={`/product/${product._id}`}>)
+                                   <Link to={`/product/${product._id}`}>
                                     <Card.Title as="div">
                                         <strong>{product.name}</strong>
                                     </Card.Title>
-                                    </a>
+                                    </Link>
                                     {/* <Card.Text as="div">
                                     <div className="my-3">
                                         <Rating
