@@ -17,7 +17,7 @@ const Product = ({product}) => {
                             <div className="gallery-container gallery-fancybox masonry-gallery payra-masonary"> */}
                             <Card className="my-3 p-3 rounded">
                                 <Link to={`/product/${product._id}`}>
-                                    <Card.Img src={product.image} variant="top" className='hover-content'/>
+                                    <Card.Img src={product.images[0].original} variant="top" className='hover-content'/>
                                 </Link>
                                 <Card.Body >
                                    <Link to={`/product/${product._id}`}>

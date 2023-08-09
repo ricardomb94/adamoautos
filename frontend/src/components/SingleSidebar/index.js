@@ -14,14 +14,14 @@ const SingleSidebar = () => {
         <div className="col-lg-4 col-md-12 col-12">
             <div className="hx-service-dt-left">
                 <div className="widget category-widget">
-                    <h3>Categories</h3>
+                    <h3>Nos services</h3>
                     <ul>
-                        <li><Link onClick={ClickHandler} to="/">Réparation Moteur</Link></li>
-                        <li><Link onClick={ClickHandler} to="/">Remplacement des pneumatiques</Link></li>
-                        <li><Link onClick={ClickHandler} to="/">Transmission</Link></li>
-                        <li><Link onClick={ClickHandler} to="/">Diagnostique</Link></li>
-                        <li><Link onClick={ClickHandler} to="/">Remplacement de batterie</Link></li>
-                        <li><Link onClick={ClickHandler} to="/">Réparation du sytème de freinage</Link></li>
+                        <li><Link onClick={ClickHandler} to="/service">Réparation Moteur</Link></li>
+                        <li><Link onClick={ClickHandler} to="/service">Remplacement des pneumatiques</Link></li>
+                        <li><Link onClick={ClickHandler} to="/service">Transmission</Link></li>
+                        <li><Link onClick={ClickHandler} to="/service">Diagnostique</Link></li>
+                        <li><Link onClick={ClickHandler} to="/service">Remplacement de batterie</Link></li>
+                        <li><Link onClick={ClickHandler} to="/service">Réparation du sytème de freinage</Link></li>
                     </ul>
                 </div>
                 <div className="hx-field-section">
@@ -37,17 +37,17 @@ const SingleSidebar = () => {
                     <div className="hx-contact-sub">
                         <i className="fa fa-phone" aria-hidden="true"></i>
                         <h4>Téléphone</h4>
-                        <p>06.46.46.12.52</p>
+                        <p>07 51 30 47 04</p>
                     </div>
                     <div className="hx-contact-sub">
                         <i className="fa fa-envelope-o" aria-hidden="true"></i>
                         <h4>Email</h4>
-                        <p>ricardo.mboukou@gmail.com</p>
+                        <p>info@adamoautos.com</p>
                     </div>
                     <div className="hx-contact-sub hx-contact-sub-2">
                         <i className="fa fa-map-o" aria-hidden="true"></i>
-                        <h4>Address</h4>
-                        <p> 150 rue de la Mare, 75020 Paris</p>
+                        <h4>Adresse</h4>
+                        <p> 14 chemin des closeaux, 94440 Villecresnes</p>
                     </div>
                 </div>
             </div>
