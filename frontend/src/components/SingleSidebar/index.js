@@ -42,7 +42,7 @@ const SingleSidebar = () => {
                     <div className="hx-contact-sub">
                         <i className="fa fa-envelope-o" aria-hidden="true"></i>
                         <h4>Email</h4>
-                        <p>info@adamoautos.com</p>
+                        <p>mail@adamoautos.com</p>
                     </div>
                     <div className="hx-contact-sub hx-contact-sub-2">
                         <i className="fa fa-map-o" aria-hidden="true"></i>
