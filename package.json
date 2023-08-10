@@ -16,7 +16,7 @@
     "dev": "concurrently \"yarn run server\" \"yarn run client\"",
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d",
-    "heroku-postbuig":"YARN_CONFIG_PRODUTION=false yarn add --prefix frontend && yarn build --prefix frontend" 
+    "heroku-postbuild": "cd frontend && yarn install --production=false && yarn build"  
   },
   "dependencies": {
     "axios": "^1.4.0",
