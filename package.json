@@ -1,5 +1,8 @@
 {
   "name": "adamoautos",
+  "engine":{
+    "node":"14.21.1"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/ricardomb94/adamoautos.git",
@@ -13,7 +16,7 @@
     "dev": "concurrently \"yarn run server\" \"yarn run client\"",
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "heroku-postbuig":"YARN_CONFIG_PRODUTION=false yarn add --prefix frontend && yarn build --prefix frontend" 
   },
   "dependencies": {
     "axios": "^1.4.0",
