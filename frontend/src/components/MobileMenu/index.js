@@ -14,35 +14,11 @@ const menus = [
     id: 3,
         title: 'Service',
         link: '/service',
-        // submenu: [
-        //     {
-        //         id: 31,
-        //         title: 'Service',
-        //         link: '/service'
-        //     },
-        //     {
-        //         id: 32,
-        //         title: 'Service Single',
-        //         link: '/service-details'
-        //     }
-        // ]
     },
 {
     id: 4,
         title: 'Catalogue',
         link: '/catalogue',
-        // submenu: [
-        //     {
-        //         id: 41,
-        //         title: 'Project',
-        //         link: '/project'
-        //     },
-        //     {
-        //         id: 42,
-        //         title: 'Project Single',
-        //         link: '/project-details'
-        //     }
-        // ]
     },
     {
         id: 7,
