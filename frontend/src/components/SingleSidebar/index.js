@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import s1 from '../../images/service-details/img-3.jpg'
+// import s1 from '../../images/service-details/img-3.jpg'
 
 
 const SingleSidebar = () => {
@@ -24,7 +24,7 @@ const SingleSidebar = () => {
                         <li><Link onClick={ClickHandler} to="/service">Réparation du sytème de freinage</Link></li>
                     </ul>
                 </div>
-                <div className="hx-field-section">
+                {/* <div className="hx-field-section">
                     <div className="hx-field-img">
                         <img src={s1} alt=""/>
                     </div>
@@ -32,7 +32,7 @@ const SingleSidebar = () => {
                         <h3>Recevez<span>25%</span>de réduction</h3>
                         <h2>Pour toute commande</h2>
                     </div>
-                </div>
+                </div> */}
                 <div className="hx-contact-ad">
                     <div className="hx-contact-sub">
                         <i className="fa fa-phone" aria-hidden="true"></i>

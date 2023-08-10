@@ -34,6 +34,7 @@ const ProductDetails = () => {
                                 <Card className="my-3 p-3 rounded">
                                     <ImageGallery 
                                         items={images} 
+                                        alt={product.name}
                                         thumbnailPosition="left"
                                         />
 

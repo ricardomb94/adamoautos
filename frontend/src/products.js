@@ -32,7 +32,27 @@ const products = [
     images:[
       {
         original:'/images/volgswagen-slider5.jpeg',
-        thumbnail:'https://picsum.photos/id/1018/250/150/',
+        thumbnail:'/thumbnails/volgswagen-t5.jpeg',
+      },
+      {
+        original:'/images/volgswagen-s4.jpeg',
+        thumbnail:'/thumbnails/volgswagen-t4.jpeg',
+      },
+      {
+        original:'/images/volgswagen-s3.jpeg',
+        thumbnail:'/thumbnails/volgswagen-t3.jpeg',
+      },
+      {
+        original:'/images/volgswagen-s1.jpeg',
+        thumbnail:'/thumbnails/volgswagen-t1.jpeg',
+      },
+      {
+        original:'/images/volgswagen-s2.jpeg',
+        thumbnail:'/thumbnails/volgswagen-t2.jpeg',
+      },
+      {
+        original:'/images/volgswagen-s0.jpeg',
+        thumbnail:'/thumbnails/volgswagen-t0.jpeg',
       }
     ],
     description:
@@ -50,8 +70,15 @@ const products = [
     name: 'Nissan Pixo',
     images:[
       {
-        original:'/images/nissan-slider1.jpeg',
-        thumbnail:'https://picsum.photos/id/1018/250/150/',
+        original:'/images/nissan-s1.jpeg',
+        thumbnail:'/thumbnails/nissan-t1.jpeg',
+      },
+      {
+        original:'/images/nissan-s2.jpeg',
+        thumbnail:'/thumbnails/nissan-t2.jpeg',
+      },{
+        original:'/images/nissan-s3.jpeg',
+        thumbnail:'/thumbnails/nissan-t3.jpeg',
       }
     ],
     description:
