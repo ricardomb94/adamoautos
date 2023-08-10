@@ -5,7 +5,15 @@ const products = [
     images:[
       {
         original:'/images/audi-slider1.jpeg',
-        thumbnails:'https://picsum.photos/id/1018/250/150/',
+        thumbnail:'/thumbnails/audi-t1.jpeg',
+      },
+      {
+        original:'/images/audia-slider2.jpeg',
+        thumbnail:'/thumbnails/audi-t2.jpeg',
+      },
+      {
+        original:'/images/audi-s3.jpeg',
+        thumbnail:'/thumbnails/audi-t3.jpeg',
       }
     ],
     description:
@@ -24,7 +32,7 @@ const products = [
     images:[
       {
         original:'/images/volgswagen-slider5.jpeg',
-        thumbnails:'https://picsum.photos/id/1018/250/150/',
+        thumbnail:'https://picsum.photos/id/1018/250/150/',
       }
     ],
     description:
@@ -43,7 +51,7 @@ const products = [
     images:[
       {
         original:'/images/nissan-slider1.jpeg',
-        thumbnails:'https://picsum.photos/id/1018/250/150/',
+        thumbnail:'https://picsum.photos/id/1018/250/150/',
       }
     ],
     description:
@@ -62,7 +70,7 @@ const products = [
     images:[
       {
         original:'/images/volgswagen-slider5.jpeg',
-        thumbnails:'https://picsum.photos/id/1018/250/150/',
+        thumbnail:'https://picsum.photos/id/1018/250/150/',
       }
     ],
     description:
@@ -81,7 +89,7 @@ const products = [
     images:[
       {
         original:'/images/nissan-slider4.jpeg',
-        thumbnails:'https://picsum.photos/id/1018/250/150/',
+        thumbnail:'https://picsum.photos/id/1018/250/150/',
       }
     ],
     description:
@@ -100,7 +108,7 @@ const products = [
     images:[
       {
         original:'/images/audi-slider1.jpeg',
-        thumbnails:'https://picsum.photos/id/1018/250/150/',
+        thumbnail:'https://picsum.photos/id/1018/250/150/',
       }
     ],
     description:

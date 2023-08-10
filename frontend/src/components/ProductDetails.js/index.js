@@ -1,15 +1,23 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import products from '../../products';
-// import { Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import SingleSidebar from '../SingleSidebar';
-// import thumbnails from '../../thumbnails';
-// import '../node_modules/react-image-gallery/styles/css/image-gallery.css';
 import ImageGallery from 'react-image-gallery';
+import "react-image-gallery/styles/css/image-gallery.css"
+import './style.css'
 
 const ProductDetails = () => {
     const {id: productId} = useParams()
     const product = products.find((p) => p._id === Number(productId))
+    if (!product) {
+        return <div>Produit non trouvé</div>;
+      }
+    
+      const images = product.images.map(imageObj => ({
+        original: imageObj.original,
+        thumbnail: imageObj.thumbnail,
+      }));
   
         return (
 
@@ -23,19 +31,22 @@ const ProductDetails = () => {
                                 <img src={product.image} alt=""/>
                             </div> */}
                             <div className="hx-service-dt-i">
-                            <ImageGallery items={product.images}/>
+                                <Card className="my-3 p-3 rounded">
+                                    <ImageGallery 
+                                        items={images} 
+                                        thumbnailPosition="left"
+                                        />
+
+                                </Card>
+                           
                             </div>
                             <p><span></span>{product.description}</p>
-                            <blockquote>The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words beautiful a benificial to world etc.
-                            </blockquote>
+                            <blockquote>Veuillez nous contacter pour plus de détails !</blockquote>
                             <div className="hx-service-dt-s">
                                 <img src={product.image} alt="" />
-                                {/* <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. </p> */}
-                                {/* <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,</p> */}
                             </div>
                         </div>
                         <div className="prv-nx">
-                            {/* <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. </p> */}
                             <div className="pre-btn"><Link to="/catalogue">Retour au Catalogue</Link></div>
                             {/* <div className="nex-btn"><Link to="/service-details">Next</Link></div> */}
                         </div>

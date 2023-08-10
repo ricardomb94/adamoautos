@@ -1,5 +1,8 @@
 {
   "name": "adamoautos",
+  "engine":{
+    "node":"14.21.1"
+  },
   "version": "0.1.0",
   "homepage": "https://ricardomb94.github.io/adamoautos",
   "private": false,

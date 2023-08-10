@@ -11,7 +11,8 @@ const CataloguePage= () => {
    
     <>
     <Navbar/>
-      <h1 className="text-center mt-5">Produits Récents</h1>
+      <h1 className="text-center mt-5">Proposition de vente</h1>
+      
       <Row>
         {products.map((product, i) => (
           <Col sm={12} md={6} lg={4} key={i} >
