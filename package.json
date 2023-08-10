@@ -1,6 +1,6 @@
 {
   "name": "adamoautos",
-  "engine":{
+  "engines":{
     "node":"14.21.1"
   },
   "version": "1.0.0",
