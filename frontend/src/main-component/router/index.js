@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Homepage from '../HomePage'
 import AboutPage from '../AboutPage'
 import ServicePage from '../ServicePage'
-import ServiceDetailsPage from '../ServiceDetailsPage'
+// import ServiceDetailsPage from '../ServiceDetailsPage'
 import CataloguePage from '../CataloguePage'
 import ProductDetailsPage from '../ProductDetailsPage.js';
 import ProjectPage from '../ProjectPage'
@@ -23,12 +23,10 @@ const AllRoute = () => {
        <Router basename={window.location.pathname || '' }>
           <Switch>
             <Route exact path='/' component={Homepage}/>
-            <Route path='/home' component={Homepage} />
-            {/* <Route path='/home2' component={Homepage2} />
-            <Route path='/home3' component={Homepage3} /> */}
+            {/* <Route path='/home' component={Homepage} /> */}
             <Route path='/about' component={AboutPage} />
             <Route path='/service' component={ServicePage} />
-            <Route path='/service-details' component={ServiceDetailsPage} />
+            {/* <Route path='/service-details' component={ServiceDetailsPage} /> */}
             <Route path='/catalogue' component={CataloguePage} />
             <Route path='/product/:id' component={ProductDetailsPage} />
             <Route path='/project' component={ProjectPage} />

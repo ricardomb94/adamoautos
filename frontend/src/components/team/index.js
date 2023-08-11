@@ -33,8 +33,8 @@ const TeamSection = (props) => {
             <div className="container">
                 <div className="col-12">
                     <div className="hx-site-title-1 text-center">
-                        <span>Meet Our Expertise</span>
-                        <h2>Our Awesome Team</h2>
+                        {/* <span>Meet Our Expertise</span> */}
+                        <h2>Notre équipe de choc !</h2>
                     </div>
                 </div>
                 <div className="row">

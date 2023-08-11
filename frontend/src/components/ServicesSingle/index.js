@@ -31,7 +31,7 @@ const ServicesSingle = (props) => {
                         <div className="prv-nx">
                             <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. </p>
                             <div className="pre-btn"><Link to="/service-details">Previous</Link></div>
-                            <div className="nex-btn"><Link to="/service-details">Next</Link></div>
+                            {/* <div className="nex-btn"><Link to="/service-details">Next</Link></div> */}
                         </div>
                     </div>
                 </div>
