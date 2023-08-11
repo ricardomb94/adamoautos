@@ -78,14 +78,14 @@ const Footer = (props) =>{
                             <h3>Services</h3>
                             <div className="service-section">
                                 <ul>
-                                    <li><Link onClick={ClickHandler} to="/service-details">Diagnostique et entretien</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-details">Charge et Démarrage</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-details">Embrayage</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-details">Moteur</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-details">Roues</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-details">Direction et Transmission</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-details">Suspension</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service-details">Echappement</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service">Diagnostique et entretien</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service">Charge et Démarrage</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service">Embrayage</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service">Moteur</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service">Roues</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service">Direction et Transmission</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service">Suspension</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/service">Echappement</Link></li>
                                 </ul>
                             </div>
                         </div>
