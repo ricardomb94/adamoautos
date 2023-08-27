@@ -47,7 +47,7 @@ const ProductDetails = () => {
                             </div>
                             <h3 className='title-list'>Caractéristiques</h3>
                             
-                            <ListGroup>
+                            <ListGroup className='my-3'>
                                 <ListGroupItem>
                                     Année: {product.year}
                                 </ListGroupItem>
