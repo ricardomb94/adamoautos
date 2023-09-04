@@ -6,9 +6,9 @@ import SingleSidebar from '../SingleSidebar';
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css"
 import sd3 from '../../images/project/img-10.jpg'
-import './style.css'
+import './style.css';
 
-const ProductDetails = () => {
+const ProductDetails = ({props}) => {
     const {id: productId} = useParams()
     const product = products.find((p) => p._id === Number(productId))
     if (!product) {
@@ -39,7 +39,7 @@ const ProductDetails = () => {
                                     <ImageGallery 
                                         items={images} 
                                         alt={product.brand}
-                                        thumbnailPosition="left"
+                                        thumbnailPosition="bottom"
                                         />
 
                                 </Card>
@@ -47,49 +47,47 @@ const ProductDetails = () => {
                             </div>
                             <h3 className='title-list'>Caractéristiques</h3>
                             
-                            <ListGroup className='my-3'>
-                                <ListGroupItem>
-                                    Année: {product.year}
+                            <ListGroup>
+                                <ListGroupItem >
+                                    <span className="font-weight-bold">Année</span>: {product.year}
+                                </ListGroupItem> 
+                                <ListGroupItem >
+                                    <span className="font-weight-bold">Provenance:</span> {product.provenance}
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                    Provenance: {product.provenance}
+                                <span className="font-weight-bold"> Mise en circulation:</span> {product.registration}    
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                     Mise en circulation: {product.registration}    
+                                <span className="font-weight-bold">Contrôle technique:</span> {product.vehicleInspection}
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                    Contrôle technique: {product.vehicleInspection}
+                                <span className="font-weight-bold">Première main:</span> {product.originalOwner}
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                    Première main: {product.originalOwner}
+                                <span className="font-weight-bold">Km compteur:</span> {product.odometerReading}
+                                </ListGroupItem>
+                            </ListGroup >
+                            
+                            <ListGroup className="list-2 ">
+                                <ListGroupItem>
+                                <span className="font-weight-bold">Energie:</span> {product.energy}
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                    Kilométrage compteur: {product.odometerReading}
+                                <span className="font-weight-bold">Boite vitesse:</span> {product.transmission}
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                    Energie: {product.energy}
+                                <span className="font-weight-bold">Sellerie:</span> {product.upholstery}
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                    Boite vitesse: {product.transmission}
+                                <span className="font-weight-bold">Nombre de portes:</span> {product.doors}
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                    Sellerie: {product.upholstery}
+                                <span className="font-weight-bold">Nombre de places:</span> {product.seats}
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                    Nombre de portes: {product.doors}
-                                </ListGroupItem>
-                                <ListGroupItem>
-                                    Nombre de places: {product.seats}
-                                </ListGroupItem>
-                                <ListGroupItem>
-                                    Nombre de places: {product.color}
+                                <span className="font-weight-bold">Couleur:</span> {product.color}
                                 </ListGroupItem>
                           </ListGroup>
-                              
-                            {/* <blockquote>Veuillez nous contacter pour plus de détails !</blockquote>
-                            <div className="hx-service-dt-s">
-                                <img src={sd3} alt="" className="img img-responsive"/>
-                            </div> */}
                         </div>
                         <div className="prv-nx mt-3">
                             <div className="pre-btn"><Link to="/catalogue">Retour au Catalogue</Link></div>
