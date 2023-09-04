@@ -73,7 +73,7 @@ const products = [
     category: 'essence',
     color: 'blanche',
     countInStock: 0,
-    price: 1750,
+    price: 9000,
     rating: 4.5,
     provenance:'Allemagne',
     registration:'12/09/2013 ',

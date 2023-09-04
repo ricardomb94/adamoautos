@@ -52,40 +52,40 @@ const ProductDetails = ({props}) => {
                                     <span className="font-weight-bold">Année</span>: {product.year}
                                 </ListGroupItem> 
                                 <ListGroupItem >
-                                    <span className="font-weight-bold">Provenance:</span> {product.provenance}
+                                    <span className="font-weight-bold">Provenance: </span> {product.provenance}
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                <span className="font-weight-bold"> Mise en circulation:</span> {product.registration}    
+                                <span className="font-weight-bold"> Mise en circulation: </span> {product.registration}    
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                <span className="font-weight-bold">Contrôle technique:</span> {product.vehicleInspection}
+                                <span className="font-weight-bold">Contrôle technique: </span> {product.vehicleInspection}
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                <span className="font-weight-bold">Première main:</span> {product.originalOwner}
+                                <span className="font-weight-bold">Première main: </span> {product.originalOwner}
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                <span className="font-weight-bold">Km compteur:</span> {product.odometerReading}
+                                <span className="font-weight-bold">Km compteur: </span> {product.odometerReading}
                                 </ListGroupItem>
                             </ListGroup >
                             
                             <ListGroup className="list-2 ">
                                 <ListGroupItem>
-                                <span className="font-weight-bold">Energie:</span> {product.energy}
+                                <span className="font-weight-bold">Energie: </span> {product.energy}
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                <span className="font-weight-bold">Boite vitesse:</span> {product.transmission}
+                                <span className="font-weight-bold">Boite vitesse: </span> {product.transmission}
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                <span className="font-weight-bold">Sellerie:</span> {product.upholstery}
+                                <span className="font-weight-bold">Sellerie: </span> {product.upholstery}
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                <span className="font-weight-bold">Nombre de portes:</span> {product.doors}
+                                <span className="font-weight-bold">Nombre de portes: </span> {product.doors}
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                <span className="font-weight-bold">Nombre de places:</span> {product.seats}
+                                <span className="font-weight-bold">Nombre de places: </span> {product.seats}
                                 </ListGroupItem>
                                 <ListGroupItem>
-                                <span className="font-weight-bold">Couleur:</span> {product.color}
+                                <span className="font-weight-bold">Couleur: </span> {product.color}
                                 </ListGroupItem>
                           </ListGroup>
                         </div>
