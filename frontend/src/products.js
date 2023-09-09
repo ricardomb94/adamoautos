@@ -1,42 +1,50 @@
 const products = [
-  // {
-  //   _id: 1,
-  //   name: 'Audi A1',
-  //   images:[
-  //     {
-  //       original:'/images/audi-slider1.jpeg',
-  //       thumbnail:'/thumbnails/audi-t1.jpeg',
-  //     },
-  //     {
-  //       original:'/images/audia-slider2.jpeg',
-  //       thumbnail:'/thumbnails/audi-t2.jpeg',
-  //     },
-  //     {
-  //       original:'/images/audi-s3.jpeg',
-  //       thumbnail:'/thumbnails/audi-t3.jpeg',
-  //     }
-  //   ],
-  //   description:
-  //     'L\'Audi A1 est une voiture à hayon élégante et compacte qui respire la sophistication et la modernité. Elle présente un design extérieur élégant caractérisé par des lignes nettes, une calandre avant agressive et des phares à LED. Sa taille compacte en fait une voiture idéale pour la ville, permettant une maniabilité et un stationnement faciles.',
-  //   brand: 'Audi A1',
-  //   year:2012,
-  //   category: 'Essence',
-  //   color: 'blanche',
-  //   countInStock: 0,
-  //   price: 1750,
-  //   rating: 4.5,
-  //   provenance:'France',
-  //   registration:'27-02-2012 ',
-  //   vehicleInspection:'Requis',
-  //   originalOwner:'Non',
-  //   odometerReading:'134.000 km',
-  //   energy:'essence',
-  //   transmission:'Manuelle',
-  //   upholstery:'cuir/tissu',
-  //   doors:5,
-  //   seats:5,
-  //   numReviews: 12,
-  // },
+  {
+    _id: 1,
+    name: 'Toyota Iq',
+    images:[
+      {
+        original:'/images/yarris-1.jpeg',
+        thumbnail:'/thumbnails/yarris-t1.jpeg',
+      },
+      {
+        original:'/images/yarris-2.jpeg',
+        thumbnail:'/thumbnails/yarris-t2.jpeg',
+      },
+      {
+        original:'/images/yarris-3.jpeg',
+        thumbnail:'/thumbnails/yarris-t3.jpeg',
+      },
+      {
+        original:'/images/yarris-5.jpeg',
+        thumbnail:'/thumbnails/yarris-t5.jpeg',
+      },
+      {
+        original:'/images/yarris-6.jpeg',
+        thumbnail:'/thumbnails/yarris-t6.jpeg',
+      },
+    ],
+    description:
+      'L\'Audi A1 est une voiture à hayon élégante et compacte qui respire la sophistication et la modernité. Elle présente un design extérieur élégant caractérisé par des lignes nettes, une calandre avant agressive et des phares à LED. Sa taille compacte en fait une voiture idéale pour la ville, permettant une maniabilité et un stationnement faciles.',
+    brand: 'Toyota Iq',
+    year:2019,
+    category: 'Essence',
+    color: 'noire',
+    countInStock: 0,
+    price: 7500,
+    rating: 4.5,
+    provenance:'France',
+    registration:'12/09/2009',
+    vehicleInspection:'Requis',
+    originalOwner:'Oui',
+    odometerReading:'116.000Km',
+    energy:'essence',
+    transmission:'Manuelle',
+    upholstery:'cuir/tissu',
+    doors:3,
+    seats:4,
+    numReviews: 12,
+  },
   {
     _id: 2,
     name: 'Volgswagen Up',
