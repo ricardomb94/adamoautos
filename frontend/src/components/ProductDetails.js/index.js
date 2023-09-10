@@ -93,12 +93,13 @@ const ProductDetails = ({props}) => {
                     </div>
                    
                 </div>
-                <SingleSidebar className="mt-3"/>
+               
+            </div>
+            <SingleSidebar className="mt-3"/>
                         <div className="prv-nx mt-3">
                             <div className="pre-btn"><Link to="/catalogue">Retour au Catalogue</Link></div>
                             {/* <div className="nex-btn"><Link to="/service-details">Next</Link></div> */}
                         </div>
-            </div>
         </div>
         );
 }
