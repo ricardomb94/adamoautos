@@ -94,8 +94,8 @@ const ProductDetails = ({props}) => {
                             {/* <div className="nex-btn"><Link to="/service-details">Next</Link></div> */}
                         </div>
                     </div>
-                    <SingleSidebar className="mt-3"/>
                 </div>
+                <SingleSidebar className="mt-3"/>
             </div>
         </div>
         );
