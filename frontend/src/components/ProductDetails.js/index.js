@@ -2,6 +2,8 @@ import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import products from '../../products';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Container, Row, Col } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import SingleSidebar from '../SingleSidebar';
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css"
@@ -23,9 +25,9 @@ const ProductDetails = ({props}) => {
         return (
 
             <div className="hx-service-dt-area hx-section-padding">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-8">
+            <Container>
+                <Row>
+                    <Col md={8} >
                     <div className="prv-nx">
                             <div className="pre-btn"><h2>{product.brand}</h2></div>
                             {/* <div className="nex-btn"><Link to="/service-details">Next</Link></div> */}
@@ -90,14 +92,16 @@ const ProductDetails = ({props}) => {
                           </ListGroup>
                         </div>
                       
-                    </div>
-                    <SingleSidebar className="col-md-4 mt-3"/>
-                </div>
+                    </Col>
+                    <Col md={4}>
+                        <SingleSidebar />
+                    </Col>
+                </Row>
                 <div className="prv-nx mt-3">
                     <div className="pre-btn"><Link to="/catalogue">Retour au Catalogue</Link></div>
                         {/* <div className="nex-btn"><Link to="/service-details">Next</Link></div> */}
                     </div>
-            </div>
+            </Container>
            
                        
         </div>
