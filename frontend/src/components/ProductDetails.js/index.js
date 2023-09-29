@@ -116,7 +116,8 @@ const ProductDetails = ({ props }) => {
               </ListGroup>
             </div>
           </div>
-          <SingleSidebar className='col-md-4 mt-3' />
+          <SingleSidebar />
+          {/* <SingleSidebar className='col-md-4 mt-3' /> */}
         </div>
         <div className='prv-nx mt-3'>
           <div className='pre-btn'>
