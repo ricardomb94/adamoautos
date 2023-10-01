@@ -102,12 +102,20 @@ const products = [
     name: "Nissan Pixo",
     images: [
       {
-        original: "/images/nissan-s1.jpeg",
-        thumbnail: "/thumbnails/nissan-t1.jpeg",
+        original: "/images/pinto1.jpeg",
+        thumbnail: "/thumbnails/pinto-t1.jpeg",
       },
       {
-        original: "/images/nissan-s2.jpeg",
-        thumbnail: "/thumbnails/nissan-t2.jpeg",
+        original: "/images/pinto2.jpeg",
+        thumbnail: "/thumbnails/pinto-t2.jpeg",
+      },
+      {
+        original: "/images/pinto3.jpeg",
+        thumbnail: "/thumbnails/pinto-t3.jpeg",
+      },
+      {
+        original: "/images/pinto4.jpeg",
+        thumbnail: "/thumbnails/pinto-t4.jpeg",
       },
       {
         original: "/images/nissan-s3.jpeg",

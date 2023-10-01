@@ -24,7 +24,7 @@ const ProductDetails = ({ props }) => {
     <div className='hx-service-dt-area hx-section-padding'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-8'>
+          <div className='col'>
             <div className='prv-nx'>
               <div className='pre-btn'>
                 <h2>{product.brand}</h2>

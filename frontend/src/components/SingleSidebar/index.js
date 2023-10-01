@@ -8,7 +8,8 @@ const SingleSidebar = () => {
   };
 
   return (
-    <div className='col-lg-4 col-md-12 col-12'>
+    // <div className='col-lg-4 col-md-12 col-12'>
+    <div className='col-lg-4 col-md-8 col-8'>
       <div className='hx-service-dt-left'>
         <div className='widget category-widget'>
           <h3>Nos services</h3>
