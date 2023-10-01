@@ -38,9 +38,19 @@
 }
 
 
+/* SidebarL */
+@media (min-width: 992px) {
+    .col-lg-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        margin-top: 3.3rem;
+        max-width: 100%;
+    }
+}
+
 .hx-service-dt-area .hx-contact-ad {
     margin-bottom: 30px;
-    border: 0.1em solid grey;
+    /* border: 0.1em solid grey; */
     padding: 1.2rem;
     background: beige !important;
 }

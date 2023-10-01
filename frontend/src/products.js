@@ -27,7 +27,7 @@ const products = [
     description:
       "L'Audi A1 est une voiture à hayon élégante et compacte qui respire la sophistication et la modernité. Elle présente un design extérieur élégant caractérisé par des lignes nettes, une calandre avant agressive et des phares à LED. Sa taille compacte en fait une voiture idéale pour la ville, permettant une maniabilité et un stationnement faciles.",
     available: "immédiatement disponible",
-    brand: "Toyota Iq",
+    brand: "Toyota IQ",
     year: 2009,
     category: "Essence",
     color: "noire",
@@ -48,7 +48,7 @@ const products = [
   },
   {
     _id: 2,
-    name: "Volgswagen Up",
+    name: "Volgswagen UP",
     images: [
       {
         original: "/images/volgswagen-slider5.jpeg",
@@ -78,7 +78,7 @@ const products = [
     description:
       "Le Volswagen Up! est une petite voiture citadine compacte connue pour sa taille réduite, sa praticité et son efficacité. Elle arbore un design moderne, un intérieur étonnamment spacieux pour sa catégorie et diverses fonctionnalités et technologies modernes. Avec sa maniabilité réactive et ses options respectueuses de l'environnement, elle est bien adaptée à la conduite en ville et aux déplacements quotidiens.",
     available: "immédiatement disponible",
-    brand: "Volswagen",
+    brand: "Volgswagen UP",
     year: 2013,
     category: "essence",
     color: "blanche",
@@ -172,7 +172,7 @@ const products = [
     description:
       "L'Audi A1 est une voiture à hayon élégante et compacte qui respire la sophistication et la modernité. Elle présente un design extérieur élégant caractérisé par des lignes nettes, une calandre avant agressive et des phares à LED. Sa taille compacte en fait une voiture idéale pour la ville, permettant une maniabilité et un stationnement faciles.",
     available: "immédiatement disponible",
-    brand: "Toyota Yarris",
+    brand: "Toyota Yaris",
     year: 2012,
     category: "Essence",
     color: "rouge",
