@@ -1,7 +1,7 @@
 const products = [
   {
     _id: 1,
-    name: "Toyota Iq",
+    name: "Toyota IQ",
     images: [
       {
         original: "/images/yarris-1.jpeg",
@@ -138,23 +138,27 @@ const products = [
   },
   {
     _id: 4,
-    name: "Toyota Yarris",
+    name: "Toyota Yaris",
     images: [
-      // {
-      //   original:'/images/yarris-rouge-1.jpeg',
-      //   thumbnail:'/thumbnails/yarris-rouge-t1.jpeg',
-      // },
       {
-        original: "/images/yarris-rouge-2.jpeg",
-        thumbnail: "/thumbnails/yarris-rouge-t2.jpeg",
+        original: "/images/yaris-1.jpeg",
+        thumbnail: "/thumbnails/yaris-t01.jpeg",
       },
       {
-        original: "/images/yarris-rouge-3.jpeg",
-        thumbnail: "/thumbnails/yarris-rouge-t3.jpeg",
+        original: "/images/yaris-2.jpeg",
+        thumbnail: "/thumbnails/yaris-t02.jpeg",
       },
       {
-        original: "/images/yarris-rouge-4.jpeg",
-        thumbnail: "/thumbnails/yarris-rouge-t4.jpeg",
+        original: "/images/yaris-3.jpeg",
+        thumbnail: "/thumbnails/yaris-t03.jpeg",
+      },
+      {
+        original: "/images/yaris-5.jpeg",
+        thumbnail: "/thumbnails/yaris-t05.jpeg",
+      },
+      {
+        original: "/images/yaris-6.jpeg",
+        thumbnail: "/thumbnails/yaris-t06.jpeg",
       },
     ],
     description:
